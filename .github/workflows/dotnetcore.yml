@@ -23,5 +23,5 @@ jobs:
         source-url: https://nuget.pkg.github.com/shayneburgess/index.json
       env:
         NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    - name: Run tests
-      run: dotnet test simple-dotnet
+    - name: Run the app
+      run: dotnet run --project simple-dotnet

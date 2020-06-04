@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using Newtonsoft.Json;
 
 namespace simple_dotnet
 {
@@ -8,7 +9,7 @@ namespace simple_dotnet
         [Fact]
         public void Test1()
         {
-
+            JsonConvert.DeserializeObject<object>("{ 'hello': 'world' }");
         }
     }
 }

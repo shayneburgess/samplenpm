@@ -1,5 +1,5 @@
 
-name: webhook-trigger
+name: package_event
 
 on:
   repository_dispatch:

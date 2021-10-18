@@ -8,3 +8,5 @@ docker run --rm -it -v $PWD:/home/app -w /home/app --name npmsample node:latest 
 # CI
 
 Actions will run to test changes on checkin/PR and deploy to Packages on release
+
+Test change
